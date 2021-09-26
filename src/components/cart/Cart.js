@@ -14,7 +14,7 @@ const Cart = (props) => {
             {
                 props.cart.map(product=> <p>{product.name}</p> )
             }
-            <h4>Total Price: {total}</h4>
+            <h4>Total Price: {total}$</h4>
         </div>
     );
 };
